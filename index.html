@@ -2,11 +2,22 @@
 <html>
 <head>
 <title>Your Page Title</title>
+<script src="scripts/listrepos.js"></script>
+
+<script>
+$(function() {
+$("#my-github-projects").loadRepositories("sanjukthas");
+});
+</script>
+
 </head>
+
+
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 <script>
 </script>
+
 <body>
 
 hello! master
